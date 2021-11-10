@@ -10,7 +10,7 @@ public class MediiPonderateExamen {
         Medie = (double)25/100*Nota1 + (double)25/100*Nota2 + (double)50/100*Nota3; //setat (double) pentru a nu fi calculat ca int. Else, este trecut 0
         System.out.println ("Media este: " + Medie + ". " + "Este formata din 25% Nota1, 25% Nota2, 50% Nota3");
 
-        // De aici incepe modulul de rotunjire, versiunea 4.0
+        // De aici incepe modulul de rotunjire
 
         System.out.println ("Doriti sa continuati pentru rotunjirea notei? Raspundeti cu 1 pentru Da sau 2 pentru Nu.");
         Scanner input = new Scanner (System.in);
